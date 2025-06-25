@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://knowmyrights.netlify.app"],
+    origin: ["http://localhost:5173", "https://know-my-rights.netlify.app"],
     credentials: true,
   })
 );
