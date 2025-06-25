@@ -1,0 +1,31 @@
+# Root-level node_modules (if accidentally created)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv
+.env
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+
+# Backend node_modules and build artifacts
+backend/node_modules/
+backend/.env
+backend/debug.log
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
