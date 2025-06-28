@@ -17,6 +17,8 @@ export default function QuickScenarios() {
     { label: "Maharashtra", query: "Maharashtra" },
     { label: "Delhi", query: "Delhi" },
     { label: "Tamil Nadu ", query: "Tamil Nadu" },
+    { label: "Punjab ", query: "Punjab" },
+    { label: "Karnataka ", query: "Karnataka" },
   ];
 
   const handleRightsClick = (topic) => {
